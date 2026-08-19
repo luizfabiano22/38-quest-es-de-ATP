@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main (){
+
+//declaração de variáveis
+float numero1, numero2, resultado;
+
+//processamento 
+printf("Inserir primeiro número: ");
+scanf("%f", &numero1);
+
+printf("Inserir segundo número: ");
+scanf("%f", &numero2);
+
+resultado = numero1/numero2;
+
+//Saída 
+printf("O resultado da divisão é: %.1f\n", resultado);
+
+return 0;
+
+}
+
