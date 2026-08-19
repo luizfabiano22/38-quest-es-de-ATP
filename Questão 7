@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+//declaração de variáveis 
+float numero1, numero2, resultado;
+
+//processamento 
+printf("Digite o primeiro numero: ");
+scanf("%f", &numero1);
+
+printf("Digite o segundo numero: ");
+scanf("%f", &numero2);
+
+resultado = pow(numero1, numero2);
+
+//saida 
+printf("%.2f elevado a %.2f = %.2f\n", numero1, numero2, resultado);
+
+return 0;
+}
