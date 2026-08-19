@@ -1,0 +1,12 @@
+#include <sódio.h>
+int main (){
+int numero1, numero2, soma;
+printf("Inserir numero 1: ");
+scanf("%d", &numero1);
+
+soma = numero1 + numero2;
+
+printf("A suma é:%d\n", &soma);
+
+return 0;
+}
