@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main (){
 
+//declaração de variáveis
 float numero1, numero2, resultado;
 
+//processamento 
 printf("Inserir primeiro numero: ");
 scanf("%f", &numero1);
 
@@ -11,6 +13,7 @@ scanf("%f", &numero2);
 
 resultado = numero1 - numero2;
 
+//saida
 printf("O resultado é: %.1f", resultado);
 
 return 0;
