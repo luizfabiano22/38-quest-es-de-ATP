@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+
+float numero1, numero2, resultado;
+
+printf("Inserir primeiro numero: ");
+scanf("%f", &numero1);
+
+printf("Inserir segundo numero: ");
+scanf("%f", &numero2);
+
+resultado = numero1 - numero2;
+
+printf("O resultado é: %.1f", resultado);
+
+return 0;
+
+}
