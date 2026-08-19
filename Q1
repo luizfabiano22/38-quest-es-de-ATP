@@ -1,12 +1,19 @@
-#include <sódio.h>
+#include <stdio.h>
 int main (){
+
+//declaração de variáveis
 int numero1, numero2, soma;
-printf("Inserir numero 1: ");
+
+//processamento
+printf("Inserir primeiro numero : ");
 scanf("%d", &numero1);
+printf("Inserir segundo número: ");
+scanf("%d", &numero2); 
 
 soma = numero1 + numero2;
 
-printf("A suma é:%d\n", &soma);
+//saída
+printf("A soma é:%d\n", &soma);
 
 return 0;
 }
