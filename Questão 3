@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
 
-//declaração das variáveis 
+//declaração variáveis 
 float numero1, numero2, resultado;
 
 //processamento 
