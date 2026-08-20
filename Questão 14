@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float salarioMinimo, quantidadeKw;
+float valorKw, float valorConta;
+float desconto, float novoValor;
+
+//processamento 
+printf("Digite o valor do salario minimo: ");
+scanf("%f", &salarioMinimo);
+
+printf("Digite a quantidade de quilowatts gasta: ");
+scanf("%f", &quantidadeKw);
+
+valorKw = salarioMinimo / 5;
+valorConta = valorKw * quantidadeKw;
+desconto = valorConta * 0.15;
+novoValor = valorConta - desconto;
+
+//saída 
+printf("\nValor de cada quilowatt: R$ %.2f\n", valorKw);
+printf("Valor a ser pago: R$ %.2f\n", valorConta);
+printf("Novo valor com 15%% de desconto: R$ %.2f\n", novoValor);
+
+return 0;
+}
