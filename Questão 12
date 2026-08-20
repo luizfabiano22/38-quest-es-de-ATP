@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+//declaração de variáveis 
+float salario, imposto;
+
+//processamento 
+printf("Digite o salario: ");
+scanf("%f", &salario);
+
+imposto = salario * 0.05;
+
+//saida
+printf("Imposto de renda: R$ %.2f\n", imposto);
+
+return 0;
+}
