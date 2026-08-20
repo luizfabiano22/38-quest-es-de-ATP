@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+//declaração de variáveis 
+int peso, pesoGramas, novoPeso;
+
+//processamento 
+printf("Digite o peso da pessoa em kg: ");
+scanf("%d", &peso);
+
+pesoGramas = peso * 1000;
+novoPeso = pesoGramas * 1.05;
+
+//saída 
+printf("Peso em gramas: %d g\n", pesoGramas);
+printf("Novo peso com aumento de 5%%: %d g\n", novoPeso);
+
+return 0;
+}
