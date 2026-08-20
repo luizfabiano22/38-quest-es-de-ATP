@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+
+//declaração de variáveis 
+float area, diagonal;
+
+//processamento 
+printf("Inserir diagonal do quadrado: ");
+scanf("%f", &diagonal);
+
+area = (diagonal * diagonal) /2;
+
+//saída 
+printf("A área do quadrado a partir da sua diagonal é: %.2f\n", area);
+
+return 0;
+
+}
