@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+//declaração de variáveis 
+int main(int argc, char *argv[]) {
+
+//saída 
+printf("%s %s\n", argv[1], argv[3]);
+printf("%s\n", argv[2]);
+
+return 0;
+}
