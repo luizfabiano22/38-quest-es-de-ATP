@@ -1,0 +1,22 @@
+include <stdio.h>
+
+int main() {
+    float quant1, quant2, quant3;
+    float valor1, valor2, valor3;
+    float total;
+
+    printf("Digite a quantidade e o valor do primeiro produto: ");
+    scanf("%f %f", &quant1, &valor1);
+
+    printf("Digite a quantidade e o valor do segundo produto: ");
+    scanf("%f %f", &quant2, &valor2);
+
+    printf("Digite a quantidade e o valor do terceiro produto: ");
+    scanf("%f %f", &quant3, &valor3);
+
+    total = (quant1 * valor1) + (quant2 * valor2) + (quant3 * valor3);
+
+    printf("Valor total: R$%.2f\n", total);
+
+    return 0;
+}
