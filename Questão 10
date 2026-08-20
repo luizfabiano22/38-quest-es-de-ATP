@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main() {
+
+float base, altura, lado, raio;
+float baseMaior, baseMenor;
+float diagonalMaior, diagonalMenor;
+
+// Triângulo
+printf("Digite a base do triangulo: ");
+scanf("%f", &base);
+
+printf("Digite a altura do triangulo: ");
+scanf("%f", &altura);
+
+printf("Area do triangulo: %.2f\n", (base * altura) / 2);
+
+
+// Quadrado
+printf("\nDigite o lado do quadrado: ");
+scanf("%f", &lado);
+
+printf("Area do quadrado: %.2f\n", lado * lado);
+
+
+// Circulo
+printf("\nDigite o raio do circulo: ");
+scanf("%f", &raio);
+
+printf("Area do circulo: %.2f\n", 3.14159 * raio * raio);
+
+
+// Trapezio
+printf("\nDigite a base maior do trapezio: ");
+scanf("%f", &baseMaior);
+
+printf("Digite a base menor do trapezio: ");
+scanf("%f", &baseMenor);
+
+printf("Digite a altura do trapezio: ");
+scanf("%f", &altura);
+
+printf("Area do trapezio: %.2f\n",
+((baseMaior + baseMenor) * altura) / 2);
+
+
+// Retangulo
+printf("\nDigite a base do retangulo: ");
+scanf("%f", &base);
+
+printf("Digite a altura do retangulo: ");
+scanf("%f", &altura);
+
+printf("Area do retangulo: %.2f\n", base * altura);
+
+
+// Losango
+printf("\nDigite a diagonal maior do losango: ");
+scanf("%f", &diagonalMaior);
+
+printf("Digite a diagonal menor do losango: ");
+scanf("%f", &diagonalMenor);
+
+printf("Area do losango: %.2f\n", (diagonalMaior * diagonalMenor) / 2);
+
+return 0;
+}
