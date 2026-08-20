@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main () {
+
+//declaração de variáveis 
+float salarioF, salarioM, resultado;
+
+//processamento 
+printf("Inserir salário do funcionário: ");
+scanf("%f", &salarioF);
+printf("Inserir salário mínimo: ");
+scanf(%f", &salarioM);
+
+resultado = salarioF/salarioM;
+
+//saída 
+printf ("O funcionário recebe: %.2f salarios mínimos\n", resultado);
+
+return 0;
+
+}
