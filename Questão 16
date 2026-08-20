@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis
+int anoNascimento, anoAtual;
+int idade, semanas;
+
+//processamento 
+printf("Digite o ano de nascimento: ");
+scanf("%d", &anoNascimento);
+
+printf("Digite o ano atual: ");
+scanf("%d", &anoAtual);
+
+idade = anoAtual - anoNascimento;
+semanas = idade * 52;
+
+//saída 
+printf("Idade: %d anos\n", idade);
+printf("Idade em semanas: %d semanas\n", semanas);
+
+return 0;
+}
