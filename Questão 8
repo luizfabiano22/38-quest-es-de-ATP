@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+
+//declaração de variáveis
+float numero1, raiz_quadrada, resultado;
+
+//processamento 
+printf("Entre com o número: ");
+scanf(%f", &numero1);
+
+raiz_quadrada = srqt(numero1);
+resultado = numero1 * numero1;
+
+//saída 
+printf("O resultado da raiz quadrada é: %f.2f\n", raiz_quadrada);
+printf("O resultado elevado ao quadrado é: %f.2f\n", resultado);
+
+return 0;
+
+}
+
+
