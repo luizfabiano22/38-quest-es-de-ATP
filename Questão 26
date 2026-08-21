@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variaveis
+float a, b, c, d, e, f;
+float x, y;
+
+//processamento
+printf("Digite os valores de a: ");
+scanf("%f", &a);
+printf("Digite os valores de b: ");  
+scanf("%f", &b);
+printf("Digite os valores de c: ");  
+scanf("%f", &c);
+printf("Digite os valores de d: ");  
+scanf("%f", &d);
+printf("Digite os valores de e: ");  
+scanf("%f", &e);
+printf("Digite os valores de f: ");  
+scanf("%f", &f);
+
+y = (a * f - c * d) / (a * e - b * d);
+
+x = (c * e - b * f) / (a * e - b * d);
+
+//saida
+printf("x = %.2f\n", x);
+printf("y = %.2f\n", y);
+
+return 0;
+}
