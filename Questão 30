@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+//declaração de variáveis
+float custoFabrica, valorImpostos, valorComImpostos;
+float valorDistribuidor, float custoConsumidor;
+
+//processamento 
+printf("Digite o custo de fabrica do carro: ");
+scanf("%f", &custoFabrica);
+
+valorImpostos = custoFabrica * 0.45;
+valorComImpostos = custoFabrica + valorImpostos;
+
+valorDistribuidor = valorComImpostos * 0.28;
+custoConsumidor = valorComImpostos + valorDistribuidor;
+
+//saída
+printf("Custo ao consumidor: R$ %.2f\n", custoConsumidor);
+
+return 0;
+
+}
