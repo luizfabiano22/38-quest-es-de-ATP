@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+//declaração de variaveis 
+float P, i, valorAcumulado;
+int n;
+
+//declaração de variáveis 
+printf("Digite o valor da aplicacao mensal: ");
+scanf("%f", &P);
+
+printf("Digite a taxa de rendimento (em %%): ");
+scanf("%f", &i);
+
+printf("Digite o numero de meses: ");
+scanf("%d", &n);
+
+i = i / 100;
+
+valorAcumulado = (P * (pow(1 + i, n) - 1)) / i;
+
+//saida
+printf("Valor acumulado: R$ %.2f\n", valorAcumulado);
+
+return 0;
+}
