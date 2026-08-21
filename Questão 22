@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float produto1, produto2, produto3, produto4, produto5;
+float pagamento, soma, troco;
+
+//processamento 
+printf("Digite o valor do primeiro produto: ");
+scanf("%f", &produto1);
+
+printf("Digite o valor do segundo produto: ");
+scanf("%f", &produto2);
+
+printf("Digite o valor do terceiro produto: ");
+scanf("%f", &produto3);
+
+printf("Digite o valor do quarto produto: ");
+scanf("%f", &produto4);
+
+printf("Digite o valor do quinto produto: ");
+scanf("%f", &produto5);
+
+soma = produto1 + produto2 + produto3 + produto4 + produto5;
+
+printf("Digite o valor do pagamento: ");
+scanf("%f", &pagamento);
+
+troco = pagamento - soma;
+
+//saída 
+printf("Troco: R$ %.2f\n", troco);
+
+return 0;
+}
