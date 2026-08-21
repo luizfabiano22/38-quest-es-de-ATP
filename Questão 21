@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float comprimento, largura, profundidade;
+float volume, valor;
+
+//processamento 
+printf("Digite o comprimento da piscina: ");
+scanf("%f", &comprimento);
+
+printf("Digite a largura da piscina: ");
+scanf("%f", &largura);
+
+printf("Digite a profundidade da piscina: ");
+scanf("%f", &profundidade);
+
+volume = comprimento * largura * profundidade;
+valor = volume * 45.00;
+
+//saída 
+printf("\nVolume da piscina: %.2f m3", volume);
+printf("\nValor da construcao: R$ %.2f\n", valor);
+
+return 0;
+}
