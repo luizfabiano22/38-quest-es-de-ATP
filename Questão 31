@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float salario, novoSalario;
+
+//processamento 
+printf("Digite o salario: ");
+scanf("%f", &salario);
+
+
+novoSalario = salario * 1.37;
+
+//saída
+printf("Novo salario: R$ %.2f\n", novoSalario);
+
+return 0;
+}
