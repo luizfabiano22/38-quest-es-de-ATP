@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variaveis  
+float precoCusto, percentual, acrescimo, precoVenda;
+
+//processamento
+printf("Digite o preco de custo: ");
+scanf("%f", &precoCusto);
+
+printf("Quantos percento você quer acrescentar?: ");
+scanf("%f", &percentual);
+
+acrescimo = precoCusto * percentual / 100;
+precoVenda = precoCusto + acrescimo;
+
+//saida
+printf("Valor de venda: R$ %.2f\n", precoVenda);
+
+return 0;
+
+}
