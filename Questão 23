@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variaveis 
+int A, B, C, aux;
+
+//processamento 
+printf("Digite o valor de A: ");
+scanf("%d", &A);
+
+printf("Digite o valor de B: ");
+scanf("%d", &B);
+
+printf("Digite o valor de C: ");
+scanf("%d", &C);
+
+aux = A;
+A = B;
+B = C;
+C = aux;
+
+//saida
+printf("A = %d\n", A);
+printf("B = %d\n", B);
+printf("C = %d\n", C);
+
+return 0;
+}
