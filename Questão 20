@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main (){
+
+//declaração de variaveis
+float valor1, valor2, valor3, somatorio, media;
+int resto;
+//processamento
+print("inesir os tres valores: ");
+scanf("%f", &valor1 &valor2 &valor3);
+
+media = (valor1 + valor2 + valor3) / 3;
+
+somatorio = valor1 + valor2 + valor3;
+
+//saida
+
+printf("o resto do %f %% %f = %f", somatorio, valor1, somatotio % valor1);
+printf("o resto do %f %% %f = %f", somatorio, valor2. somatorio % valor2);
+printf("o resto do %f %% %f = %f", somatorio, valor3, somatorio % valor3);
+
+return 0;
+
+}
