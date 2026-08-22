@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+int apartamentos;
+float diaria, diariaPromocional;
+float total100, total70;
+float apartamentos70;
+float totalSemPromocao, perda;
+
+//processamento 
+printf("Digite o numero de apartamentos: ");
+scanf("%d", &apartamentos);
+
+printf("Digite o valor da diaria: ");
+scanf("%f", &diaria);
+
+diariaPromocional = diaria - (diaria * 0.25);
+
+total100 = apartamentos * diariaPromocional;
+
+apartamentos70 = apartamentos * 0.70;
+total70 = apartamentos70 * diariaPromocional;
+
+totalSemPromocao = apartamentos * diaria;
+perda = totalSemPromocao - total100;
+
+//saída 
+printf("\nValor promocional da diaria: R$ %.2f\n", diariaPromocional);
+printf("Arrecadacao com 100%% de ocupacao: R$ %.2f\n", total100);
+printf("Arrecadacao com 70%% de ocupacao: R$ %.2f\n", total70);
+printf("Valor que deixara de arrecadar: R$ %.2f\n", perda);
+
+return 0;
+}
