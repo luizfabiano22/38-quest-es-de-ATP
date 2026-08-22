@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+int totalEleitores, votos1, votos2, votosNulos;
+float percentual1, percentual2, percentualNulos;
+
+//processamento 
+printf("Digite o numero total de eleitores: ");
+scanf("%d", &totalEleitores);
+
+printf("Digite o numero de votos do primeiro candidato: ");
+scanf("%d", &votos1);
+
+printf("Digite o numero de votos do segundo candidato: ");
+scanf("%d", &votos2);
+
+votosNulos = totalEleitores - votos1 - votos2;
+
+percentual1 = votos1 * 100.0 / totalEleitores;
+percentual2 = votos2 * 100.0 / totalEleitores;
+percentualNulos = votosNulos * 100.0 / totalEleitores;
+
+//saída 
+printf("\nPercentual do candidato 1: %.2f%%\n", percentual1);
+printf("Percentual do candidato 2: %.2f%%\n", percentual2);
+printf("Percentual de votos nulos: %.2f%%\n", percentualNulos);
+
+return 0;
+
+}
