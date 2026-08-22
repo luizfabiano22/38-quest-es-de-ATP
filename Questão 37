@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float tempo, velocidade;
+float distancia, combustivel;
+
+//processamento 
+printf("Digite o tempo gasto na viagem (em horas): ");
+scanf("%f", &tempo);
+
+printf("Digite a velocidade media (em km/h): ");
+scanf("%f", &velocidade);
+
+distancia = tempo * velocidade;
+combustivel = distancia / 12;
+
+//saída 
+printf("Distancia percorrida: %.2f km\n", distancia);
+printf("Combustivel gasto: %.2f litros\n", combustivel);
+
+return 0;
+
+}
