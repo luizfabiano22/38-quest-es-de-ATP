@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+
+//declaração de variáveis 
+float alturaDegrau, alturaObjetivo;
+float degraus;
+
+//processamento 
+printf("Digite a altura de cada degrau: ");
+scanf("%f", &alturaDegrau);
+
+printf("Digite a altura que deseja alcançar: ");
+scanf("%f", &alturaObjetivo);
+
+degraus = alturaObjetivo / alturaDegrau;
+
+//saída 
+printf("Voce devera subir %.0f degraus.\n", degraus);
+
+return 0;
+}
